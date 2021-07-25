@@ -115,4 +115,15 @@ body {
   transition: 2s;
 }
 
+/* =================== Queality ======================*/
+.ex-me{
+  margin-top: 35px;
+}
+/* ========================== Contact Us ========================*/
+
+.contact-form .help-block ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 
