@@ -32,9 +32,6 @@ body {
 .btn-blue{
   border: 2.4px solid #fd0101;
   color: #ffffff;
-  padding-left: 8px;
-  padding-right: 8px;
-  margin-left: 15px;
 }
 .hero-text{
   margin-top: 150px;
@@ -120,34 +117,9 @@ body {
 
 .progress .progress-bar {
   width: 0px;
-  border-radius: 30px;
+  border-radius: 10px;
   transition: 2s;
 }
-
-progress{
-    width: 100vh;
-    height: 16px;
-    display: block;
-    /* disable defaults */
-    -webkit-appearance: none;
-    border: none;
-    }
-    /*Styling the background of the progress bar */
-    progress::-webkit-progress-bar {
-    background: rgb(233, 226, 226);
-    border-radius: 45px;
-    padding: 2px;
-    box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.2);
-    }
-    /* Setting the appearance of the meter */
-    progress::-webkit-progress-value {
-    border-radius: 25px;
-    box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4); 
-    background-size: 250px 25px;
-    background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
-    transparent 75%, rgba(255, 255, 255, .15) 75%, rgba(255, 255, 255, .15) 75%,
-    transparent 75%, transparent); }
-
 
 /* =================== Queality ======================*/
 .ex-me{
@@ -160,11 +132,6 @@ progress{
   padding: 0;
   list-style-type: none;
 }
-
-
-.btn{margin: 10px;}
-
-
 
 
 /*====================== Back to buttom ==================*/
